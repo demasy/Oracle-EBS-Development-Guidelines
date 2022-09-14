@@ -12,6 +12,14 @@
 
 <br>
 
+ ## Contributors
+
+| Author | GitHub & LinkedIn account |
+| :-  | :---- |
+| Ahmed El-Demasy (Original Author) | <a href="https://github.com/demasy">Github</a> & <a href="https://www.linkedin.com/in/demasy">LinkedIn</a> |
+
+<br>
+
 ### Contributing to the Oracle EBS development guidelines
 We welcome new Oracle tehcncial developers to join our community and contribute to the Oracle EBS development guidelines project. If you are interested in helping please don’t hesitate to contact on an e-mail: founder@demasy.io
 
