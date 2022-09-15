@@ -4,7 +4,7 @@
 
 - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/customization-standards-guidelines">**Customization Standards Guidelines**</a>
 - Oracle AOL Standards Guidelines
-- Database Standards Guidelines
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**Database Standards Guidelines**</a>
 - OA Framework Standards Guidelines
 - Report Standards Guidelines
 - Workflow Standards Guidelines
