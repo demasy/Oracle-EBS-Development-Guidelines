@@ -131,9 +131,9 @@ The **Syntax Elements** section that presents elements syntax and describes it.
  | Column Name             | Type       | Null? | Foreign Key to Table?   |  
  | :--                     | :----      | :-:   | :--                     | 
  | REQUEST_ID              | NUMBER(15) |       | FND_CONCURRENT_REQUESTS | 
- | PROGRAM_APPLICATION_ ID | NUMBER(15) |       | FND_CONCURRENT_PROGRAMS | 
+ | PROGRAM_APPLICATION_ID  | NUMBER(15) |       | FND_CONCURRENT_PROGRAMS | 
  | PROGRAM_ID              | NUMBER(15) |       | FND_CONCURRENT_PROGRAMS | 
- | PROGRAM_UPDATE_DATE     | DATE.      |       | ROGRAM_UPDATE_DATE      | 
+ | PROGRAM_UPDATE_DATE     | DATE       |       | ROGRAM_UPDATE_DATE      | 
  
 <br>
 
