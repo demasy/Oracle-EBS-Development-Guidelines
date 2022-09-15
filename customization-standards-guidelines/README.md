@@ -19,7 +19,7 @@ Void customization as you can!; you can eliminate the need for customization by 
 
 <br>
 
-> **Recommendation!** 
+> **Oracle Recommend!** 
 > > You should eliminate any customization by modification.
 
 <br>
