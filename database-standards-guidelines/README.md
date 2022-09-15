@@ -27,7 +27,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 <br>
 
 
-### General Standards
+## General Standards
 - Never modify Oracle standard database objects.
 - You must follow standard naming conventions for creating new database objects.
 - You must create new tables, sequences, and types, in the custom schema.
