@@ -32,7 +32,7 @@ Void customization as you can!; you can eliminate the need for customization by 
 
 <br>
 
-### Implement Custom Application
+### Implement Custom Application [^1]
 
 - You may implement one custom application that owns all custom components or many custom applications that own custom components.
 - The short name can be up to 50 characters, but Oracle recommends using only three to five for ease in maintaining your application and calling routines that use your short name.
@@ -51,3 +51,7 @@ Void customization as you can!; you can eliminate the need for customization by 
 > **My Recommendation!** 
 > > I recommend implementing a single custom application called “xxd” than owns all the custom components, including all database objects, and applications components.
 
+<br> <br>
+
+##### References
+[^1]: Creating a Custom Application in Oracle E-Business Suite Release 12.1.3 and above (Doc ID 1577707.1)
