@@ -150,7 +150,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - Sequence Naming Syntax
 - Sequence Naming Convention
 - Sequence Naming Standards
-- Sequence Naming Example
+- Sequence Naming Examples
 
 
 <br>
