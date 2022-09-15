@@ -3,7 +3,7 @@
 - Create Database Custom Objects
   - <a href="#general-standards">**General Standards**</a>
   - <a href="#tables-standards">**Tables Standards**</a>
-  - Sequences Standards
+  - <a href="#sequences-standards">**Sequences Standards**</a>
   - Views Standards
   - Packages Standards
 - Database Custom Objects Naming Conventions
