@@ -147,10 +147,10 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ## Sequences Standards
 
-- <a href="#">**Sequence Naming Syntax**</a>
-- <a href="#">**Sequence Naming Convention**</a>
-- <a href="#">**Sequence Naming Standards**</a>
-- <a href="#">**Sequence Naming Examples**</a>
+- <a href="#sequence-naming-syntax">**Sequence Naming Syntax**</a>
+- <a href="#sequence-naming-convention">**Sequence Naming Convention**</a>
+- <a href="#sequence-naming-standards">**Sequence Naming Standards**</a>
+- <a href="#sequence-naming-examples">**Sequence Naming Examples**</a>
 
 <br>
 
