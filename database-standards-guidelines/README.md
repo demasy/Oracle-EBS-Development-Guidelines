@@ -91,9 +91,9 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
  | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :--:   | :---   | :---   | :----   |
- | 1    | Table                  | 20     | XXR    |        |        | XXD_PO_LC_DOCUMENTS |
- | 2    | Temporary Table        | 20     | XXR    |        | \_tmp  | XXD_PO_LC_DOCS_TMP |
- | 3    | Data Upload Table [^1] | 20     | XXR    | tmp_   |        | XXD_TMP_LC_DOCS | 
+ | 1    | Table                  | 20     | XXD    |        |        | XXD_PO_LC_DOCUMENTS |
+ | 2    | Temporary Table        | 20     | XXD    |        | \_TMP  | XXD_PO_LC_DOCS_TMP |
+ | 3    | Data Upload Table [^1] | 20     | XXD    | TMP_   |        | XXD_TMP_LC_DOCS | 
  
 <br>
 
