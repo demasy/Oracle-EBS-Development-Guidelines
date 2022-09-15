@@ -145,6 +145,16 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
+## Sequences Standards
+
+- Sequence Naming Syntax
+- Sequence Naming Convention
+- Sequence Naming Standards
+- Sequence Naming Example
+
+
+<br>
+
 ##### References
 [^2]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
 [^1]: This is a custom table for data upload and migrations **only**.
