@@ -191,6 +191,29 @@ ___
 
 ___
 
+<br>
+
+## Packages Standards
+
+
+- <a href="#packages-naming-syntax">**Packages Naming Syntax**</a>
+- <a href="#packages-naming-convention">**Packages Naming Convention**</a>
+- <a href="#packages-naming-standards">**Packages Naming Standards**</a>
+- <a href="#packages-naming-examples">**Packages Naming Examples**</a>
+
+<br>
+
+### Packages Naming Syntax
+
+### Packages Naming Convention
+
+### Packages Naming Standards
+
+### Packages Naming Examples
+
+___
+
+
 
 
 <br>
