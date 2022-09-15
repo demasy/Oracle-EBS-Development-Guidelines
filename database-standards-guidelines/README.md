@@ -2,7 +2,7 @@
 
 - Create Database Custom Objects
   - <a href="#general-standards">**General Standards**</a>
-  - Oracle Applications Tables Standards
+  - <a href="#oracle-applications-tables-standards">**Oracle Applications Tables Standards**</a>
   - Sequences Standards
   - View Standards
   - Packages Standards
