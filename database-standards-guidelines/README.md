@@ -111,7 +111,30 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - You should register your custom tables with Oracle AOL using the table registration API called AD_DD.
   - AD_DD. REGISTER_TABLE
   - AD_DD. REGISTER_COLUMN
-  
+
+<br>
+
+##### WHO columns
+
+ | Column Name       | Type       | Null?    | Foreign Key? | Value | 
+ | :--               | :----      | :-:      | :--          | :---   | 
+ | CREATED_BY        | NUMBER(15) | NOT NULL | FND_USER     | TO_NUMBER (FND_ PROFILE.VALUE (’USER_ID’)) |
+ | CREATION_DATE     | DATE       | NOT NULL |              | SYSDATE |
+ | LAST_UPDATED_BY   | NUMBER(15) | NOT NULL |              | TO_NUMBER (FND_ PROFILE.VALUE (’USER_ID’)) | 
+ | LAST_UPDATE_DATE  | DATE       | NOT NULL |              | SYSDATE |
+ | LAST_UPDATE_LOGIN | NUMBER(15) |          |              | TO_NUMBER (FND_ PROFILE.VALUE (’LOGIN_ ID’)) |
+ 
+<br>
+
+##### Concurrent Program WHO Columns
+
+ | Column Name             | Type       | Null? | Foreign Key to Table?   |  
+ | :--                     | :----      | :-:   | :--                     | 
+ | REQUEST_ID              | NUMBER(15) |       | FND_CONCURRENT_REQUESTS | 
+ | PROGRAM_APPLICATION_ ID | NUMBER(15) |       | FND_CONCURRENT_PROGRAMS | 
+ | PROGRAM_ID              | NUMBER(15) |       | FND_CONCURRENT_PROGRAMS | 
+ | PROGRAM_UPDATE_DATE     | DATE.      |       | ROGRAM_UPDATE_DATE      | 
+ 
 <br>
 
 ### Table Naming Example
