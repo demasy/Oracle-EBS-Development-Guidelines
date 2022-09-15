@@ -171,6 +171,30 @@ ___
 
 <br>
 
+## Views Standards
+
+
+- <a href="#views-naming-syntax">**Views Naming Syntax**</a>
+- <a href="#views-naming-convention">**Views Naming Convention**</a>
+- <a href="#views-naming-standards">**Views Naming Standards**</a>
+- <a href="#views-naming-examples">**Views Naming Examples**</a>
+
+<br>
+
+### Views Naming Syntax
+
+### Views Naming Convention
+
+### Views Naming Standards
+
+### Views Naming Examples
+
+___
+
+
+
+<br>
+
 ##### References
 [^2]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
 [^1]: This is a custom table for data upload and migrations **only**.
