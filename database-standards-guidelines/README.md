@@ -67,17 +67,17 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ### Table Naming Convention
 
- | SEQ  | Object Name         | Length | Schema | Prefix | Suffix | Example |
- | :-:  | :----               | :-:    | :--:   | :---   | :---   | :----   |
- | 1    | Table               | 20     | XXR    |        |        |  |
- | 2    | Temporary Table     | 20     | XXR    |        | \_tmp  |  |
- | 3    | Data Upload Table   | 20     | XXR    | tmp_   |        | For data upload and migrations ONLY | 
+ | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
+ | :-:  | :----                  | :-:    | :--:   | :---   | :---   | :----   |
+ | 1    | Table                  | 20     | XXR    |        |        | XXD_PO_LC_DOCUMENTS |
+ | 2    | Temporary Table        | 20     | XXR    |        | \_tmp  | XXD_PO_LC_DOCS_TMP |
+ | 3    | Data Upload Table [^1] | 20     | XXR    | tmp_   |        | XXD_TMP_LC_DOCS | 
  
 <br>
 
 ### Table Naming Standards
 
-- The custom table name must start with a custom schema name such as "XXD". [^1]
+- The custom table name must start with a custom schema name such as "XXD". [^2]
 - The object name “{object_name}“ should be plural.
 - The table name should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
 - You must place the new tables in the custom ORACLE schema and grant privileges to the APPS schema.
@@ -92,5 +92,12 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
+ | Better   | Bad        |
+ | :---  | :---        |
+ | - XXD_PO_LC_DOCUMENTS | - XXD_PO_LC_DOCUMENT <br> - PO_LC_DOCUMENTS       |
+
+<br>
+
 ##### References
-[^1]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
+[^2]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
+[^1]: This is a custom table for data upload and migrations **only**.
