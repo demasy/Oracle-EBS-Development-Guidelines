@@ -9,7 +9,7 @@
 
 ##### General Syntax 
 
-> **{custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{suffix}]**
+> {custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{suffix}]
 
 <br>
 
