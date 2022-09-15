@@ -12,8 +12,8 @@
 
 ## General Standards
 
-- General Syntax
-- General Standards
+- <a href="#general-syntax">**General Syntax**</a>
+- <a href="#">**General Standards**</a>
 
 <br>
 
