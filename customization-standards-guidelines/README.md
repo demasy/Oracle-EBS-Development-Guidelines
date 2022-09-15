@@ -25,4 +25,8 @@ Void customization as you can!; you can eliminate the need for customization by 
 <br>
 
 ## Customization By Extension
-It would be best if you customized by extension rather than by modification to void the risk of overwriting or losing your customization during an upgrade or patch.
+
+- You separate your application extensions from Oracle Applications components for easy identification and to reduce the risk of loss during an upgrade or patch.
+- To keep new components separate, you implement a custom application and make it the owner of the new components.
+- It would be best if you customized by extension rather than by modification to void the risk of overwriting or losing your customization during an upgrade or patch.
+
