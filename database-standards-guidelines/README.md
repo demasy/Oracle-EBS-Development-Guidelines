@@ -54,3 +54,43 @@ The **Syntax Elements** section that presents elements syntax and describes it.
  13–NOV–2022 Ahmed Demasy Created
 */
 ```
+
+<br>
+
+## Oracle Applications Tables Standards
+
+##### Syntax 
+
+> {custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{suffix}]
+
+<br>
+
+### Table Naming Convention
+
+ | SEQ  | Object Name         | Length | Schema | Prefix | Suffix | Example |
+ | :-:  | :----               | :-:    | :--:   | :---   | :---   | :----   |
+ | 1    | Table               | 20     | XXR    |        |        |  |
+ | 2    | Temporary Table     | 20     | XXR    |        | \_tmp  |  |
+ | 3    | Data Upload Table   | 20     | XXR    | tmp_   |        | For data upload and migrations ONLY | 
+ 
+<br>
+
+### Table Naming Standards
+
+- The custom table name must start with a custom schema name such as "XXD". [^1]
+- The object name “{object_name}“ should be plural.
+- The table name should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
+- You must place the new tables in the custom ORACLE schema and grant privileges to the APPS schema.
+- You must create private synonyms for custom tables in APPS.
+- You must add special WHO columns to your tables.
+- You must add concurrent program WHO Columns to your table.
+- You must create the table handler package for each table.
+- New tables containing Flex-Fields or Oracle Alert columns must be registered with Oracle Application Object Library.
+- You should register your custom tables with Oracle AOL using the table registration API called AD_DD.
+  - AD_DD. REGISTER_TABLE
+  - AD_DD. REGISTER_COLUMN
+
+<br>
+
+##### References
+[^1]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
