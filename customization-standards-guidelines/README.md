@@ -48,6 +48,6 @@ Void customization as you can!; you can eliminate the need for customization by 
 
 <br>
 
-> **Demasy Recommend!** 
+> **My Recommendation!** 
 > > I recommend implementing a single custom application called “xxd” than owns all the custom components, including all database objects, and applications components.
 
