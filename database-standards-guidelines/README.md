@@ -1,7 +1,7 @@
 # Database Standards Guidelines
 
 - Create Database Custom Objects
-  - General Standards
+  - <a href="#general-standards">**General Standards**</a>
   - Oracle Applications Tables Standards
   - Sequences Standards
   - View Standards
