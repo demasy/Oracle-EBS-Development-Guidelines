@@ -29,9 +29,10 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ### General Standards
 - Never modify Oracle standard database objects.
-- In general, make names meaningful and brief. Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the name.
-- Include header information when you create your objects.
 - You must follow standard naming conventions for creating new database objects.
 - You must create new tables, sequences, and types, in the custom schema.
 - You must create new views and package objects in the APPS schema.
 - You must use grants and synonyms to allow other ORACLE schemas to access your custom objects and to enable your custom ORACLE ID access to Oracle Applications objects.
+- In general, make names meaningful and brief. Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the name.
+- Include header information when you create your objects.
+
