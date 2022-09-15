@@ -1,11 +1,17 @@
 # Database Standards Guidelines
 
 - Create Database Custom Objects
+  - General Standards
+  - Oracle Applications Tables Standards
+  - Sequences Standards
+  - View Standards
+  - Packages Standards
 - Database Custom Objects Naming Conventions
 
 <br>
 
-## Create Database Custom Objects
+## General Standards
+
 
 ##### General Syntax 
 
@@ -26,8 +32,8 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
+### General Standards
 
-## General Standards
 - Never modify Oracle standard database objects.
 - You must follow standard naming conventions for creating new database objects.
 - You must create new tables, sequences, and types, in the custom schema.
