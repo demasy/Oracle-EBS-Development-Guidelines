@@ -2,9 +2,9 @@
 
 - Create Database Custom Objects
   - <a href="#general-standards">**General Standards**</a>
-  - <a href="#oracle-applications-tables-standards">**Oracle Applications Tables Standards**</a>
+  - <a href="#tables-standards">**Tables Standards**</a>
   - Sequences Standards
-  - View Standards
+  - Views Standards
   - Packages Standards
 - Database Custom Objects Naming Conventions
 
