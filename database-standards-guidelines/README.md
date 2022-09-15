@@ -102,8 +102,10 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - You should register your custom tables with Oracle AOL using the table registration API called AD_DD.
   - AD_DD. REGISTER_TABLE
   - AD_DD. REGISTER_COLUMN
-
+  
 <br>
+
+### Table Naming Example
 
  | Better   | Bad        |
  | :---  | :---        |
