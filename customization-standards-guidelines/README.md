@@ -45,3 +45,9 @@ Void customization as you can!; you can eliminate the need for customization by 
 | :-  | :---- |
 | Short Name | XXD |
 | Application Name | Demasy Custom Applications |
+
+<br>
+
+> **Demasy Recommend!** 
+> > I recommend implementing a single custom application called “xxd” than owns all the custom components, including all database objects, and applications components.
+
