@@ -1,8 +1,8 @@
 # Customization Standards Guidelines
 
-- Eliminate Customization
-- Customization By Extension
-- Customization by Modification
+- <a href="#eliminate-customization">**Eliminate Customization**</a>
+- <a href="#customization-by-modification">**Customization By Extension**</a>
+- <a href="#customization-by-extension">**Customization by Modification**</a>
 
 <br>
 
