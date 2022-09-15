@@ -27,6 +27,14 @@ Void customization as you can!; you can eliminate the need for customization by 
 ## Customization By Extension
 
 - You separate your application extensions from Oracle Applications components for easy identification and to reduce the risk of loss during an upgrade or patch.
-- To keep new components separate, you implement a custom application and make it the owner of the new components.
+- To keep new components separate, you **implement a custom application** and make it the owner of the new components.
 - It would be best if you customized by extension rather than by modification to void the risk of overwriting or losing your customization during an upgrade or patch.
 
+<br>
+
+### Implement Custom Application
+
+- You may implement one custom application that owns all custom components or many custom applications that own custom components.
+- The short name can be up to 50 characters, but Oracle recommends using only three to five for ease in maintaining your application and calling routines that use your short name.
+- The application’s short name should NOT start with ”O”, “CP”, and “E”, as well as all names currently used in Oracle Applications products.
+- Oracle recommends that your custom application short name begins with “XX”.
