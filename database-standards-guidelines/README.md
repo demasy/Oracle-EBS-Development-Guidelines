@@ -70,12 +70,16 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
-## Oracle Applications Tables Standards
+## Tables Standards
 
 - Table Naming Syntax
 - Table Naming Convention
 - Table Naming Standards
 - Table Naming Example
+
+<br>
+
+### Table Syntax
 
 ##### Syntax 
 
