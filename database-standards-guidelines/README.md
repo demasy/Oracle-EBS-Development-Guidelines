@@ -1,6 +1,6 @@
 # Database Standards Guidelines
 
-- Create Database Custom Objects
+- **Create Database Custom Objects**
   - <a href="#general-standards">**General Standards**</a>
   - <a href="#tables-standards">**Tables Standards**</a>
   - <a href="#sequences-standards">**Sequences Standards**</a>
@@ -145,6 +145,10 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
+___
+
+<br>
+
 ## Sequences Standards
 
 - <a href="#sequence-naming-syntax">**Sequence Naming Syntax**</a>
@@ -161,6 +165,8 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 ### Sequence Naming Standards
 
 ### Sequence Naming Examples
+
+___
 
 
 <br>
