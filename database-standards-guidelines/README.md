@@ -72,6 +72,11 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ## Oracle Applications Tables Standards
 
+- Table Naming Syntax
+- Table Naming Convention
+- Table Naming Standards
+- Table Naming Example
+
 ##### Syntax 
 
 > {custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{suffix}]
