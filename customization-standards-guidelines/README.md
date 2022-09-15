@@ -7,7 +7,7 @@
 <br>
 
 ## Eliminate Customization
-Void Customization as you can; you can eliminate the need for customization by altering the application configuration (such as setting up a descriptive flexfield).
+Void customization as you can!; you can eliminate the need for customization by altering the application configuration (such as setting up a descriptive flexfield).
 
 <br>
 
