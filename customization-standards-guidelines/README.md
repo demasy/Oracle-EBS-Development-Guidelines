@@ -15,6 +15,7 @@ Void customization as you can!; you can eliminate the need for customization by 
 -  When you cannot meet a requirement using Oracle Application features and customization by extension is not an option, you can use customization by modification.
 -  You must copy the component to be modified into a custom application and follow the guidelines for customization by extension.
 -  If you cannot define the modified component in a custom application, you should preserve a copy of the original.
+- Customization by extension are not supported by Oracle Support Services, nor the Applications Division.
 
 <br>
 
