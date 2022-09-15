@@ -38,3 +38,10 @@ Void customization as you can!; you can eliminate the need for customization by 
 - The short name can be up to 50 characters, but Oracle recommends using only three to five for ease in maintaining your application and calling routines that use your short name.
 - The application’s short name should NOT start with ”O”, “CP”, and “E”, as well as all names currently used in Oracle Applications products.
 - Oracle recommends that your custom application short name begins with “XX”.
+
+#### Example
+
+| Attribute | Value |
+| :-  | :---- |
+| Short Name | XXD |
+| Application Name | Demasy Custom Applications |
