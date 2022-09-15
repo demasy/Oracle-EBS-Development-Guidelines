@@ -72,10 +72,10 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ## Tables Standards
 
-- Table Naming Syntax
-- Table Naming Convention
-- Table Naming Standards
-- Table Naming Example
+- <a href="#table-syntax">**Table Naming Syntax**</a>
+- <a href="#table-naming-convention">**Table Naming Convention**</a>
+- <a href="#table-naming-standards">**Table Naming Standards**</a>
+- <a href="#table-naming-example">**Table Naming Example**</a>
 
 <br>
 
