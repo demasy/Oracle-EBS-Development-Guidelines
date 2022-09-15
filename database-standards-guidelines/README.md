@@ -99,7 +99,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ### Table Naming Standards
 
-- The custom table name must start with a custom schema name such as "XXD". [^2]
+- The custom table name must start with a custom schema name such as "**XXD**". [^2]
 - The object name “{object_name}“ should be plural.
 - The table name should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
 - You must place the new tables in the custom ORACLE schema and grant privileges to the APPS schema.
