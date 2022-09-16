@@ -6,6 +6,7 @@
   - <a href="#sequences-standards">**Sequences Standards**</a>
   - <a href="#views-standards">**Views Standards**</a>
   - <a href="#packages-standards">**Packages Standards**</a>
+- Oracle PL/SQL Objects Standards
 - Database Custom Objects Naming Conventions
 
 <br>
