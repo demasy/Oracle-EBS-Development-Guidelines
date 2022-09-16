@@ -192,6 +192,12 @@ ___
 ### Views Naming Convention
 
 ### Views Naming Standards
+- The first column your view should select is the ROWID for the root table, and the view should alias it to ROW_ID.
+- You only need to include the ROWID column if an Oracle Forms block is based on this view.
+- The view name “*{object_name}*“ should be 30 characters or less and end with "_V" for view and "_VM" for materialized views.
+
+
+<br>
 
 ### Views Naming Examples
 
@@ -214,6 +220,8 @@ ___
 ### Packages Naming Convention
 
 ### Packages Naming Standards
+
+<br>
 
 ### Packages Naming Examples
 
