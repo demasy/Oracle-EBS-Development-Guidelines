@@ -4,7 +4,7 @@
 
 ## Syntax 
 
-> {scope}{prefix}{separator}{identifier_name}{separator}{suffix}
+> {scope}{separator}[Optional {prefix}{separator}]{identifier_name}[Optional {separator}{suffix}]
 
 <br>
 
@@ -12,10 +12,10 @@
 
  | SEQ | Object Name       | Length | scope | Prefix | Suffix | Example           |
  | :-  | :----             | :-:    | :--   | :---   | :--    | :----             |
- | 1   | **Variables**     |        |       |        |        |                  |
- | 1.1 | Global Variable   |        | g     |    _   |        | g_enterprise_id   | 
- | 1.2 | Local Variable    |        | l     |    _   |        | l_customer_id     | 
- | 2   | **Constants**     |        |       |        |       |                  |
+ | 1   | **Variables**     |   -    |  -    |  -     | -      |  -               |
+ | 1.1 | Global Variable   |        | g     |        |        | g_enterprise_id   | 
+ | 1.2 | Local Variable    |        | l     |        |        | l_customer_id     | 
+ | 2   | **Constants**     | -      | -     |  -     | -      | -                 |
  | 2.1 | Global Constants  |        | g     |  c     |        | gc_max_discount   | 
  | 2.2 | Local Constants   |        | l     |  c     |        | lc_max_discount   | 
  | 3   | **Parameters**    |  -     |       |  -     |  -     |    -              |
