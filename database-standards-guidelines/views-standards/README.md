@@ -2,23 +2,21 @@
 
 <br>
 
-- <a href="#views-naming-syntax">**Views Naming Syntax**</a>
-- <a href="#views-naming-convention">**Views Naming Convention**</a>
-- <a href="#views-naming-standards">**Views Naming Standards**</a>
-- <a href="#views-naming-examples">**Views Naming Examples**</a>
-
-
+- <a href="#naming-syntax">**Naming Syntax**</a>
+- <a href="#naming-convention">**Naming Convention**</a>
+- <a href="#standards">**Standards**</a>
+- <a href="#examples">**Examples**</a>
 
 <br>
 
-## Views Naming Syntax
+## Naming Syntax
 
 > {custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{criteria}][Optional {separator}{suffix}]
 
 
 <br>
 
-## Views Naming Convention
+## Naming Convention
 
  | SEQ  | Object Name            | Length | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :---:  | :---   | :----   |
@@ -27,7 +25,7 @@
   
 <br>
 
-## Views Naming Standards
+## Standards
 - You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - The view name `{object_name}` should be 30 characters or less and end with "**V**" for view and "**VM**" for materialized views.
 - The first column your view should select is the ROWID for the root table, and the view should alias it to "**ROW_ID**".
@@ -35,15 +33,13 @@
 
 <br>
 
-## Views Naming Examples
+## Examples
 
 <br>
 
  | Better   | Bad        |
  | :---  | :---        |
  | - `XXD_PER_EMPLOYEE_INFO_V` <br>  - `XXD_PO_ORDERS_APPROVED_V` <br>  - `XXD_PO_ORDERS_REJECTED_V` <br>  - `XXD_INV_ALL_ITEMS_MV` |  - `PER_EMPLOYEE_INFO_V` <br>  - `XXD_HR_EMPLOYEE_INFO_V` <br>  - `XXD_PO_ORDERS_REJECTED`|
-
-<br>
 
 <br>
 
