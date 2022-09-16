@@ -106,7 +106,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - You MUST follow create database custom objects general standards.
 - The object name “*{object_name}*“ should be plural.
 - The table name should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
-- You must place the new tables in the custom ORACLE schema and grant privileges to the APPS schema.
+- You must place the new tables in the custom ORACLE schema, for example, "**XXD**", and grant privileges to the APPS schema.
 - You must create private synonyms for custom tables in APPS.
 - You should add special WHO columns to your tables.
 - You should add concurrent program WHO Columns to your table.
@@ -169,6 +169,7 @@ ___
 
 ### Sequence Naming Standards
 - The sequence name “*{object_name}*“ should be 30 characters or less and end with "_SEQ".
+- You must place the new tables in the custom ORACLE schema, for example, "**XXD**", and grant privileges to the APPS schema.
 - Use each sequence to supply unique ID values for one column of one table.
 - Do not design sequences that wrap using the CYCLE option or have limited ranges using MAXVALUE.
 - Use a NUMBER datatype to store sequence values within PL/SQL.
