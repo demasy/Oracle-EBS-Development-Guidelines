@@ -200,6 +200,13 @@ ___
 
 ### Views Naming Convention
 
+ | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
+ | :-:  | :----                  | :-:    | :--:   | :---:  | :---   | :----   |
+ | 1    | Views                  | 30     | APPS   |   -    |  _V    | XXD_PO_LC_DOCUMENTS_V |
+ | 2    | Materialized Views     | 30     | APPS   |   -    |  _MV   | XXD_PO_LC_DOCUMENTS_MV |
+  
+<br>
+
 ### Views Naming Standards
 - The view name “*{object_name}*“ should be 30 characters or less and end with "_V" for view and "_VM" for materialized views.
 - The first column your view should select is the ROWID for the root table, and the view should alias it to ROW_ID.
