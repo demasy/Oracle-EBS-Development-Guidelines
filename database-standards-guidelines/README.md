@@ -91,13 +91,21 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 <br>
 
+##### Syntax for data upload tables ONLY
+
+> {prefix}{separator}{app_short_name}{separator}{object_name}
+
+
+
+<br>
+
 ### Table Naming Convention
 
  | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :--:   | :---   | :---   | :----   |
- | 1    | Table                  | 20     | XXD    |        |        | XXD_PO_LC_DOCUMENTS |
- | 2    | Temporary Table        | 20     | XXD    |        | \_TMP  | XXD_PO_LC_DOCS_TMP |
- | 3    | Data Upload Table [^2] | 20     | XXD    | TMP_   |        | XXD_TMP_LC_DOCS | 
+ | 1    | Table                  | 20     | XXD    |  -     | -      | XXD_PO_LC_DOCUMENTS |
+ | 2    | Temporary Table        | 20     | XXD    |  -     | TMP    | XXD_PO_LC_DOCS_TMP |
+ | 3    | Data Upload Table [^2] | 20     | XXD    | TMP    | -      | TMP_PO_LC_DOCS | 
  
 <br>
 
