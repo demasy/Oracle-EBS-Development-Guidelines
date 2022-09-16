@@ -1,11 +1,15 @@
 # Sequences Standards
-- <a href="#sequence-naming-convention">**Sequence Naming Convention**</a>
-- <a href="#sequence-naming-standards">**Sequence Naming Standards**</a>
-
 
 <br>
 
-## Sequence Naming Convention
+- Naming Syntax
+- <a href="#naming-convention">**Naming Convention**</a>
+- <a href="#standards">**Standards**</a>
+- Examples
+
+<br>
+
+## Naming Convention
 
 <br>
 
@@ -17,7 +21,7 @@
 <br>
 
 
-## Sequence Naming Standards
+## Standards
 - You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - The sequence name `{object_name}` should be 30 characters or less and end with `_SEQ`.
 - You must place the new sequence in the custom ORACLE schema, for example, "**XXD**", and grant privileges to the "**APPS**" schema.
