@@ -1,6 +1,6 @@
 # Database Standards Guidelines
 
-- **Create Database Custom Objects**
+- **Database Custom Objects Standards**
   - <a href="#general-standards">**General Standards**</a>
   - <a href="#tables-standards">**Tables Standards**</a>
   - <a href="#sequences-standards">**Sequences Standards**</a>
