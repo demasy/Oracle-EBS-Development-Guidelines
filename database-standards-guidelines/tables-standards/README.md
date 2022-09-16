@@ -2,14 +2,14 @@
 
 <br>
 
-- <a href="#table-naming-syntax">**Table Naming Syntax**</a>
-- <a href="#table-naming-convention">**Table Naming Convention**</a>
-- <a href="#table-naming-standards">**Table Naming Standards**</a>
-- <a href="#table-naming-examples">**Table Naming Examples**</a>
+- <a href="#naming-syntax">**Naming Syntax**</a>
+- <a href="#naming-convention">**Naming Convention**</a>
+- <a href="#standards">**Standards**</a>
+- <a href="#examples">**Examples**</a>
 
 <br>
 
-## Table Naming Syntax
+## Naming Syntax
 
 ##### Syntax 
 
@@ -21,11 +21,9 @@
 
 > {prefix}{separator}{app_short_name}{separator}{object_name}
 
-
-
 <br>
 
-## Table Naming Convention
+## Naming Convention
 
  | SEQ  | Object Name            | Length | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :---   | :---   | :----   |
@@ -35,7 +33,7 @@
  
 <br>
 
-## Table Naming Standards
+## Standards
 
 - You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - The table name `{object_name}` should be plural.
@@ -76,7 +74,7 @@
  
 <br>
 
-## Table Naming Examples
+## Examples
 
  | Better   | Bad        |
  | :---  | :---        |
