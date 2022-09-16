@@ -3,6 +3,7 @@
 - <a href="#general-syntax">**General Syntax**</a>
 - <a href="#general-standards">**General Standards**</a>
 - <a href="#specific-database-object-types-standards">**Specific Database Object Types Standards**</a>
+- Oracle PL/SQL Coding Standards
 
 <br>
 
