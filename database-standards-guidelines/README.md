@@ -110,7 +110,8 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - You must create private synonyms for custom tables in APPS.
 - You should add special WHO columns to your tables.
 - You should add concurrent program WHO Columns to your table.
-- You must create the table handler package for each table.
+- You should add concurrent program WHO Columns to your table.
+- You should add descriptive flexfield attribute Columns to your table.
 - New tables containing Flex-Fields or Oracle Alert columns must be registered with Oracle Application Object Library.
 - You should register your custom tables with Oracle AOL using the table registration API called AD_DD.
   - AD_DD. REGISTER_TABLE
