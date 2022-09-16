@@ -41,11 +41,11 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ### General Standards
 
-- Never modify Oracle standard database objects.
+- NEVER modify Oracle standard database objects.
 - You must follow standard naming conventions for creating new database objects.
-- The database objet name "*{object_name}*" must be meaningful and brief.
+- The database objet name `{object_name}` must be meaningful and brief.
 - Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the database objet name "*{object_name}*".
-- The application/product Short Name “*{app_short_name}*“ is a foreign key from Oracle standard table called "FND_APPLICATIONS".
+- The application/product Short Name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
 - The custom database objects must start with a **custom schema name** such as "XXD". [^1]
 - You must create new database tables, sequences, and types, in the custom schema.
 - You must create new database views and packages in the APPS schema.
@@ -59,8 +59,8 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 ```SQL
 /*
- Name: XXD Create GL Journals
- Purpose: This is the main package to create GL journals
+ Name: Create & Post GL Journals
+ Purpose: This is the main package to create & post GL journals
  Arguments
   Arg1 Describe arg1
   Arg2 Describe arg2
@@ -68,7 +68,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
   1. Special usage notes
   2. Special usage notes
  History
- 13–NOV–1986 Ahmed Demasy Created
+ 13–NOV–1986 Ahmed El-Demasy Created
 */
 ```
 
