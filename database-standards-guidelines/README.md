@@ -2,6 +2,7 @@
 
 - <a href="#general-syntax">**General Syntax**</a>
 - <a href="#general-standards">**General Standards**</a>
+- <a href="#general-standards">**Specific Database Object Types Standards**</a>
 
 <br>
 
@@ -62,13 +63,11 @@
 ```
 <br>
 
-## Database Custom Objects Standards by Type
-- **Database Custom Objects Standards**
-  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/tables-standards">**Tables Standards**</a>
-  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/sequences-standards">**Sequences Standards**</a>
-  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/views-standards">**Views Standards**</a>
-  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/packages-standards">**Packages Standards**</a>
-- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/plsql-coding-standards">**Oracle PL/SQL Coding Standards**</a>
+## Specific Database Object Types Standards
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/tables-standards">**Tables Standards**</a>
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/sequences-standards">**Sequences Standards**</a>
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/views-standards">**Views Standards**</a>
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/packages-standards">**Packages Standards**</a>
 
 
 <br>
