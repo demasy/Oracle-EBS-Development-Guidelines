@@ -30,12 +30,13 @@
 ## General Standards
 
 - NEVER modify Oracle standard database objects.
-- You must follow standard naming conventions for creating new database objects.
+- You must follow standard naming conventions and syntax for creating new database objects.
 - The database object name `{object_name}` must be meaningful and brief.
 - Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the database object name `{object_name}`.
-- The application/product short name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
+- You must use the underscore “\_” as a separator `{separator}` between each word in the database object name.
 - The custom database objects must start with a custom database schema name for example "**XXD**". [^1]
-- You must create new database tables, sequences, and types, in the custom schema.
+- The application/product short name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
+- You must create new database tables, sequences, and types, in the custom schema for example "**XXD**". [^1]
 - You must create new database views and packages in the APPS schema.
 - Never create new stand-alone functions and procedures. Should be implemented as part of a package.
 - You must use grants and synonyms to allow other ORACLE schemas to access your custom objects and to enable your custom ORACLE ID access to Oracle Applications objects.
