@@ -1,15 +1,10 @@
 # Packages Standards
 
-- <a href="#packages-naming-syntax">**Packages Naming Syntax**</a>
 - <a href="#packages-naming-convention">**Packages Naming Convention**</a>
 - <a href="#packages-naming-standards">**Packages Naming Standards**</a>
-- <a href="#packages-naming-examples">**Packages Naming Examples**</a>
 
 <br>
 
-## Packages Naming Syntax
-
-<br>
 
 ## Packages Naming Convention
 
@@ -29,7 +24,7 @@
 
 ## Packages Naming Standards
 
-- You MUST follow custom database objects general standards.
+- You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - You MUST place the new packages in the **APPS** schema.
 - The packages name `{object_name}` must be 27 characters or less for table handlers packages, and end with `PKG`.
 - The packages name `{object_name}` must be 27 characters or less for public packages, and end with `API`. 
@@ -37,5 +32,3 @@
 - The packages name `{object_name}` must be 30 characters or less for unit testing packages, and start with `UT`. 
 
 <br>
-
-## Packages Naming Examples
