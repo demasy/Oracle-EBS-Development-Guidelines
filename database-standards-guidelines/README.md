@@ -1,40 +1,22 @@
 # Database Standards Guidelines
 
-- **Database Custom Objects Standards**
-  - <a href="#general-standards">**General Standards**</a>
-  - <a href="#tables-standards">**Tables Standards**</a>
-  - <a href="#sequences-standards">**Sequences Standards**</a>
-  - <a href="#views-standards">**Views Standards**</a>
-  - <a href="#packages-standards">**Packages Standards**</a>
-- Oracle PL/SQL Coding Standards
-- **Appendix**
-  - Naming Conventions Syntax Elements
-  - Database Custom Objects Naming Conventions
-
-<br>
-
-## General Standards
-
 - <a href="#general-syntax">**General Syntax**</a>
-- <a href="#">**General Standards**</a>
+- <a href="#general-standards">**General Standards**</a>
 
 <br>
 
-### General Syntax
-
-
-##### Syntax 
+## General Syntax
 
 > {custom_schema}{separator}{app_short_name}{separator}[Optional {prefix}{separator}]{object_name}[Optional {separator}{suffix}]
 
 <br>
 
-### General Standards
+## General Standards
 
 - NEVER modify Oracle standard database objects.
 - You must follow standard naming conventions for creating new database objects.
 - The database object name `{object_name}` must be meaningful and brief.
-- Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the database objet name "*{object_name}*".
+- Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the database object name `{object_name}`.
 - The application/product short name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
 - The custom database objects must start with a custom database schema name for example "**XXD**". [^1]
 - You must create new database tables, sequences, and types, in the custom schema.
@@ -61,10 +43,18 @@
  13–NOV–1986 Ahmed El-Demasy Created
 */
 ```
+<br>
+
+## Database Custom Objects Standards by Type
+- **Database Custom Objects Standards**
+  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/tables-standards">**Tables Standards**</a>
+  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/sequences-standards">**Sequences Standards**</a>
+  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/views-standards">**Views Standards**</a>
+  - <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/packages-standards">**Packages Standards**</a>
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines/plsql-coding-standards">**Oracle PL/SQL Coding Standards**</a>
 
 
 <br>
-
 
 ##### References
 [^1]: "**XXD**" is the custom database ORACLE schema association to my custom application called "Demasy Custom Applications".
