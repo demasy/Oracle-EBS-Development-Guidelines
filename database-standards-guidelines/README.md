@@ -233,7 +233,25 @@ ___
 
 ### Packages Naming Syntax
 
+<br>
+
 ### Packages Naming Convention
+
+
+ | SEQ  | Object Name              | Length | Prefix | Suffix | Example |
+ | :-:  | :----                    | :-:    | :---:  | :---   | :----   |
+ | 1    | Table Handlers Packages  | 27     |  -     | PKG    |   |
+ | 1.1  | Insert Procedures        |        |  ins   | -      |   |
+ | 1.2  | Update Procedures        |        |  upd   | -      |   |
+ | 1.3  | Delete Procedures        |        |  del   | -      |   |
+ | 1.3  | Lock Procedures          |        |  loc   | -      |   | 
+ | 3    | Public Packages          | 27     |  -     | API    |   | 
+ | 4    | Private Packages         | 27     |  -     | PVT    |   | 
+ | 5    | Unit Testing Packages    | 30     |  UT    | -      |   | 
+ 
+<br>
+
+
 
 ### Packages Naming Standards
 
