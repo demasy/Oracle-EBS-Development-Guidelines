@@ -48,7 +48,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - You must create new database views and packages in the APPS schema.
 - Never create new stand-alone functions and procedures. Should be implemented as part of a package.
 - You must use grants and synonyms to allow other ORACLE schemas to access your custom objects and to enable your custom ORACLE ID access to Oracle Applications objects.
-- In general, make names meaningful and brief. Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the name.
+- The database objet name must be meaningful and brief. Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the name.
 - Include header information when you create your objects.
 
 <br>
