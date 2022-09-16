@@ -263,6 +263,13 @@ ___
 
 ### Packages Naming Standards
 
+- You MUST follow custom database objects general standards.
+- You MUST place the new packages in the **APPS** schema.
+- The packages name must be 27 characters or less for table handlers packages, and end with `PKG`.
+- The packages name must be 27 characters or less for public packages, and end with `API`. 
+- The packages name must be 27 characters or less for private packages, and end with `PVT`. 
+- The packages name must be 30 characters or less for unit testing packages, and start with `UT`. 
+
 <br>
 
 ### Packages Naming Examples
