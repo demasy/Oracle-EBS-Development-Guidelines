@@ -9,6 +9,7 @@
 - Report Standards Guidelines
 - Workflow Standards Guidelines
 - Deployment Standards Guidelines
+- The Best Practices Standards Guidelines
 
 <br>
 
