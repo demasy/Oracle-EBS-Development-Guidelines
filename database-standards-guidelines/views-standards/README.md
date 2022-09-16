@@ -41,7 +41,7 @@
 
  | Better   | Bad        |
  | :---  | :---        |
- | - `XXD_PER_EMPLOYEE_INFO_V` <br>  - `XXD_PO_ORDERS_APPROVED_V` <br>  - `XXD_PO_ORDERS_REJECTED_V` <br>  - `XXD_INV_ALL_ITEMS_MV` |     |
+ | - `XXD_PER_EMPLOYEE_INFO_V` <br>  - `XXD_PO_ORDERS_APPROVED_V` <br>  - `XXD_PO_ORDERS_REJECTED_V` <br>  - `XXD_INV_ALL_ITEMS_MV` |  - `PER_EMPLOYEE_INFO_V` <br>  - `XXD_HR_EMPLOYEE_INFO_V` <br>  - `XXD_PO_ORDERS_REJECTED`|
 
 <br>
 
