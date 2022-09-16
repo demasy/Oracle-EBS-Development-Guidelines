@@ -202,8 +202,8 @@ ___
 
  | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :--:   | :---:  | :---   | :----   |
- | 1    | Views                  | 30     | APPS   |   -    |  _V    | XXD_PO_LC_DOCUMENTS_V |
- | 2    | Materialized Views     | 30     | APPS   |   -    |  _MV   | XXD_PO_LC_DOCUMENTS_MV |
+ | 1    | Views                  | 30     | APPS   |   -    |  \_V    | XXD_PO_LC_DOCUMENTS_V |
+ | 2    | Materialized Views     | 30     | APPS   |   -    |  \_MV   | XXD_PO_LC_DOCUMENTS_MV |
   
 <br>
 
@@ -240,14 +240,14 @@ ___
 
  | SEQ  | Object Name              | Length | Prefix | Suffix | Example |
  | :-:  | :----                    | :-:    | :---:  | :---   | :----   |
- | 1    | Table Handlers Packages  | 27     |  -     | PKG    |   |
- | 1.1  | Insert Procedures        |        |  ins   | -      |   |
- | 1.2  | Update Procedures        |        |  upd   | -      |   |
- | 1.3  | Delete Procedures        |        |  del   | -      |   |
- | 1.3  | Lock Procedures          |        |  loc   | -      |   | 
- | 3    | Public Packages          | 27     |  -     | API    |   | 
- | 4    | Private Packages         | 27     |  -     | PVT    |   | 
- | 5    | Unit Testing Packages    | 30     |  UT    | -      |   | 
+ | 1    | Table Handlers Packages  | 27     |  -     | PKG    |         |
+ | 1.1  | Insert Procedures        |        |  INS   | -      |         |
+ | 1.2  | Update Procedures        |        |  UPD   | -      |         |
+ | 1.3  | Delete Procedures        |        |  DEL   | -      |         |
+ | 1.4  | Lock Procedures          |        |  LOCK  | -      |         | 
+ | 3    | Public Packages          | 27     |  -     | API    |         | 
+ | 4    | Private Packages         | 27     |  -     | PVT    |         | 
+ | 5    | Unit Testing Packages    | 30     |  UT    | -      |         | 
  
 <br>
 
