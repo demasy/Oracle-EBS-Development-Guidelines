@@ -4,8 +4,8 @@
   - <a href="#general-standards">**General Standards**</a>
   - <a href="#tables-standards">**Tables Standards**</a>
   - <a href="#sequences-standards">**Sequences Standards**</a>
-  - Views Standards
-  - Packages Standards
+  - <a href="#views-standards">**Views Standards**</a>
+  - <a href="#packages-standards">**Packages Standards**</a>
 - Database Custom Objects Naming Conventions
 
 <br>
