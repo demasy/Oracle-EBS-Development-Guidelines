@@ -238,5 +238,5 @@ ___
 <br>
 
 ##### References
-[^1]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
+[^1]: "**XXD**" is the custom database ORACLE schema association to my custom application called "Demasy Custom Applications".
 [^2]: This is a custom table for data upload and migrations **only**.
