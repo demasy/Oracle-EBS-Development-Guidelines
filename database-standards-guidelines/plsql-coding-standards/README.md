@@ -3,6 +3,7 @@
 
 <br>
 
+- <a href="#syntax">**Syntax**</a>
 - <a href="#plsql-objects-naming-convention">**PL/SQL Objects Naming Convention**</a>
 - <a href="#plsql-objects-naming-standards">**PL/SQL Objects Naming Standards**</a>
 
