@@ -163,6 +163,12 @@ ___
 ### Sequence Naming Convention
 
 ### Sequence Naming Standards
+- The Sequence name “*{object_name}*“ should be 30 characters or less and end with "_SEQ".
+- Use each sequence to supply unique ID values for one column of one table.
+- Do not design sequences that wrap using the CYCLE option or have limited ranges using MAXVALUE.
+- Use a NUMBER datatype to store sequence values within PL/SQL.
+- Do Not Use the FND_UNIQUE_IDENTIFIER_CONTROL Table.
+
 
 ### Sequence Naming Examples
 
