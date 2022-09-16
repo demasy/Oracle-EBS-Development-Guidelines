@@ -1,12 +1,16 @@
 # Packages Standards
 
-- <a href="#packages-naming-convention">**Packages Naming Convention**</a>
-- <a href="#packages-naming-standards">**Packages Naming Standards**</a>
+<br>
+
+- Naming Syntax
+- <a href="#naming-convention">**Naming Convention**</a>
+- <a href="#standards">**Standards**</a>
+- Naming Syntax
 
 <br>
 
 
-## Packages Naming Convention
+## Naming Convention
 
 
  | SEQ  | Object Name              | Length | Prefix | Suffix | Example |
@@ -22,7 +26,7 @@
  
 <br>
 
-## Packages Naming Standards
+## Standards
 
 - You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - You MUST place the new packages in the "**APPS**" schema.
