@@ -37,7 +37,7 @@
 - The custom database objects must start with a custom database schema name for example "**XXD**". [^1]
 - The application/product short name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
 - You must create new database tables, sequences, and types, in the custom schema for example "**XXD**". [^1]
-- You must create new database views and packages in the APPS schema.
+- You must create new database views and packages in the "**APPS**" schema.
 - Never create new stand-alone functions and procedures. Should be implemented as part of a package.
 - You must use grants and synonyms to allow other ORACLE schemas to access your custom objects and to enable your custom ORACLE ID access to Oracle Applications objects.
 - Include header information when you create your objects.
