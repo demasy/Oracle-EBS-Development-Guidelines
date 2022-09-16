@@ -27,11 +27,11 @@
 
 ## Table Naming Convention
 
- | SEQ  | Object Name            | Length | Schema | Prefix | Suffix | Example |
- | :-:  | :----                  | :-:    | :--:   | :---   | :---   | :----   |
- | 1    | Table                  | 20     | XXD    |  -     | -      | XXD_PO_LC_DOCUMENTS |
- | 2    | Temporary Table        | 20     | XXD    |  -     | TMP    | XXD_PO_LC_DOCS_TMP |
- | 3    | Data Upload Table [^1] | 20     | XXD    | TMP    | -      | TMP_PO_LC_DOCS | 
+ | SEQ  | Object Name            | Length | Prefix | Suffix | Example |
+ | :-:  | :----                  | :-:    | :---   | :---   | :----   |
+ | 1    | Table                  | 20     |  -     | -      | XXD_PO_LC_DOCUMENTS |
+ | 2    | Temporary Table        | 20     |  -     | TMP    | XXD_PO_LC_DOCS_TMP |
+ | 3    | Data Upload Table [^1] | 20     | TMP    | -      | TMP_PO_LC_DOCS | 
  
 <br>
 
