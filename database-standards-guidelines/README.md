@@ -107,8 +107,8 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 - The table name should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
 - You must place the new tables in the custom ORACLE schema and grant privileges to the APPS schema.
 - You must create private synonyms for custom tables in APPS.
-- You must add special WHO columns to your tables.
-- You must add concurrent program WHO Columns to your table.
+- You should add special WHO columns to your tables.
+- You should add concurrent program WHO Columns to your table.
 - You must create the table handler package for each table.
 - New tables containing Flex-Fields or Oracle Alert columns must be registered with Oracle Application Object Library.
 - You should register your custom tables with Oracle AOL using the table registration API called AD_DD.
