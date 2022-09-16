@@ -5,7 +5,7 @@
 - <a href="#table-naming-syntax">**Table Naming Syntax**</a>
 - <a href="#table-naming-convention">**Table Naming Convention**</a>
 - <a href="#table-naming-standards">**Table Naming Standards**</a>
-- <a href="#table-naming-example">**Table Naming Example**</a>
+- <a href="#table-naming-examples">**Table Naming Examples**</a>
 
 <br>
 
@@ -75,11 +75,11 @@
  
 <br>
 
-## Table Naming Example
+## Table Naming Examples
 
  | Better   | Bad        |
  | :---  | :---        |
- | - XXD_PO_LC_DOCUMENTS | - XXD_PO_LC_DOCUMENT <br> - PO_LC_DOCUMENTS       |
+ | - `XXD_PO_LC_DOCUMENTS` | - `XXD_PO_LC_DOCUMENT` <br> - `PO_LC_DOCUMENTS`       |
 
 <br>
 
