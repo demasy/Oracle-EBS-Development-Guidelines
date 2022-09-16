@@ -42,7 +42,7 @@
 - The table name `{object_name}` should be 20 characters or less. It can be longer, but you need to abbreviate it for the table handler package name, which must be 27 characters or less.
 - You must place the new tables in the custom ORACLE schema, for example, "**XXD**", and grant privileges to the "**APPS**" schema.
 - You must create private synonyms for custom tables in "**APPS**" schema.
-- The table MUST include a primary key column and supply value from a specific sequence.
+- The table MUST include a primary key (PK) column and supply value from a specific sequence.
 - You should add special WHO columns to your tables.
 - You should add concurrent program WHO columns to your table.
 - You should add descriptive flexfield (DFF) attribute columns to your table.
