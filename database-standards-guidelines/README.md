@@ -7,7 +7,7 @@
   - <a href="#views-standards">**Views Standards**</a>
   - <a href="#packages-standards">**Packages Standards**</a>
 - Oracle PL/SQL Coding Standards
-- Database Custom Objects Naming Conventions
+- Appendix: Database Custom Objects Naming Conventions
 
 <br>
 
