@@ -28,6 +28,7 @@
 <br>
 
 ## Views Naming Standards
+- You MUST follow database custom objects <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/database-standards-guidelines">**general standards**</a>.
 - The view name `{object_name}` should be 30 characters or less and end with "**V**" for view and "**VM**" for materialized views.
 - The first column your view should select is the ROWID for the root table, and the view should alias it to "**ROW_ID**".
 - You only need to include the ROWID column if an Oracle Forms block is based on this view.
