@@ -11,7 +11,7 @@
 
  | SEQ  | Object Name            | Length | Prefix | Suffix | Example |
  | :-:  | :----                  | :-:    | :---   | :---   | :----   |
- | 1    | Sequence               | 30     |  -     | SEQ    | `DOCUMENT_ID_SEQ` |
+ | 1    | Sequence               | 30     |  -     | SEQ    | `XXD_DOCUMENT_ID_SEQ` |
  
  
 <br>
