@@ -43,7 +43,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 
 - NEVER modify Oracle standard database objects.
 - You must follow standard naming conventions for creating new database objects.
-- The database objet name `{object_name}` must be meaningful and brief.
+- The database object name `{object_name}` must be meaningful and brief.
 - Do not use generic, all-purpose phrases like ”COMMON”, ”MISC”, ”OTHER”, or ”UTILITY” in the database objet name "*{object_name}*".
 - The application/product Short Name `{app_short_name}` is a foreign key from Oracle standard table called "FND_APPLICATIONS".
 - The custom database objects must start with a **custom schema name** such as "XXD". [^1]
