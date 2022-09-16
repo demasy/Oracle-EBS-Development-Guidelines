@@ -38,7 +38,3 @@
 
 <br>
 
-## PL/SQL Objects Coding Standards
-- 
-
-<br>
