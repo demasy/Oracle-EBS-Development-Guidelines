@@ -168,7 +168,7 @@ ___
 ### Sequence Naming Convention
 
 ### Sequence Naming Standards
-- The sequence name “*{object_name}*“ should be 30 characters or less and end with "_SEQ".
+- The sequence name `{object_name}` should be 30 characters or less and end with `_SEQ`.
 - You must place the new sequence in the custom ORACLE schema, for example, "**XXD**", and grant privileges to the APPS schema.
 - Use each sequence to supply unique ID values for one column of one table.
 - Do not design sequences that wrap using the CYCLE option or have limited ranges using MAXVALUE.
