@@ -5,7 +5,7 @@
 - Naming Syntax
 - <a href="#naming-convention">**Naming Convention**</a>
 - <a href="#standards">**Standards**</a>
-- Naming Syntax
+- Examples
 
 <br>
 
