@@ -42,6 +42,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
 ### General Standards
 
 - Never modify Oracle standard database objects.
+- The custom database objects must start with a **custom schema name** such as "XXD". [^1]
 - You must follow standard naming conventions for creating new database objects.
 - You must create new tables, sequences, and types, in the custom schema.
 - You must create new views and package objects in the APPS schema.
@@ -93,7 +94,7 @@ The **Syntax Elements** section that presents elements syntax and describes it.
  | :-:  | :----                  | :-:    | :--:   | :---   | :---   | :----   |
  | 1    | Table                  | 20     | XXD    |        |        | XXD_PO_LC_DOCUMENTS |
  | 2    | Temporary Table        | 20     | XXD    |        | \_TMP  | XXD_PO_LC_DOCS_TMP |
- | 3    | Data Upload Table [^1] | 20     | XXD    | TMP_   |        | XXD_TMP_LC_DOCS | 
+ | 3    | Data Upload Table [^2] | 20     | XXD    | TMP_   |        | XXD_TMP_LC_DOCS | 
  
 <br>
 
@@ -233,5 +234,5 @@ ___
 <br>
 
 ##### References
-[^2]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
-[^1]: This is a custom table for data upload and migrations **only**.
+[^1]: "**XXD**" is the custom database ORACLE schema association to the custom application called "Demasy Custom Applications".
+[^2]: This is a custom table for data upload and migrations **only**.
