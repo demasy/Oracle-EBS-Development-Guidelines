@@ -9,6 +9,7 @@
 - Report Standards Guidelines
 - Workflow Standards Guidelines
 - Deployment Standards Guidelines
+- <a href="https://github.com/demasy/Oracle-EBS-Development-Guidelines/tree/main/best-practices-standards-guidelines">**The Best Practices Standards Guidelines**</a>
 
 <br>
 
